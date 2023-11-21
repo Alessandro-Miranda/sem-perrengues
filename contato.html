@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sem perrengues | Contato</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="font-poppins max-w-screen-sm lg:max-w-[100vw] bg-black text-white relative">
+    <header class="px-container-sm lg:px-container-lg absolute top-8 w-full" id="menu">
+      <div class="flex justify-between items-center">
+        <a href="/" class="w-2/4 lg:w-52">
+          <img src="/public/Logo - SEM PERRENGUES.png" alt="Logo Sem perrengues" />
+        </a>
+        <button class="leading-none h-max menu-open bg-white rounded p-2 lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="fill-red" viewBox="0 0 256 256" id="open-menu-mobile-svg">
+            <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
+          </svg>
+        </button>
+        <nav class="fixed left-0 -top-[120%] w-screen h-screen bg-red transition-all duration-500 menu lg:relative lg:w-max lg:h-max lg:bg-transparent">
+          <button class="absolute right-4 top-4 menu-close lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#EE7674" viewBox="0 0 256 256">
+              <path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
+            </svg>
+          </button>
+          <ul class="mt-14 font-medium lg:mt-0 lg:flex lg:items-center">
+            <li class="p-container-sm text-white text-lg border-b cursor-pointer lg:hover:text-red lg:border-b-0 lg:py-2">
+              <a href="/" class="block w-full">Home</a>
+            </li>
+            <li class="p-container-sm text-white text-lg border-b cursor-pointer lg:hover:text-red lg:border-b-0 lg:py-2 lg:mr-2">
+              <a href="/servicos.html" class="block w-full">Serviços</a>
+            </li>
+            <li class="p-container-sm text-white text-lg border-b cursor-pointer lg:hover:text-red lg:border-b-0 lg:py-2 lg:mr-2 lg:border-r">
+              <a href="/contato.html" class="block w-full">Contato</a>
+            </li>
+            <li class="p-container-sm text-lg cursor-pointer w-2/3 mx-auto mt-4 lg:p-0 lg:w-48 lg:ml-2 lg:mt-0 text-white">
+              <a class="bg-white lg:bg-red text-red font-bold lg:text-white lg:hover:bg-red-100 hover:text-red w-full block py-3 rounded-md lg:font-medium text-center lg:text-sm" id="menu-button">
+                Saiba mais
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div>
+      <img src="/public/full-banner-contato.png" />
+    </div>
+
+    <!-- <div class="lg:bg-contact-hero lg:bg-no-repeat lg:bg-right lg:bg-cover lg:h-[550px]">
+      <img src="/public/BANNER-CONTATO-mobil.png" alt="Entre em contato com a autoescola Strada" class="lg:hidden" />
+      <div class="lg:bg-transparent px-container-sm lg:px-container-lg lg:pt-44 lg:pb-10">
+        <span class="hidden lg:block text-red font-bold text-sm lg:text-lg lg:mb-4">Contato</span>
+        <h1 class="hidden font-extrabold text-4xl lg:block lg:w-2/3 lg:text-5xl">
+          Sem perrengues
+        </h1>
+        <p class="hidden lg:block text-sm font-normal mt-4 w-64 lg:w-1/2 lg:text-lg">
+          Quer conquistar sua liberdade e conduzir seus sonhos? Entre em contato!
+        </p>
+        <a href="https://wa.me/5511984855420" class="hidden bg-red px-5 py-3 w-full text-xl lg:w-max lg:flex justify-center items-center gap-5 rounded-xl text-white uppercase mt-5">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 fill-white"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+    </div> -->
+
+    <main class="px-container-sm pb-4 lg:mt-20 lg:px-container-lg">
+      <section class="mb-5">
+        <div
+          class="block rounded-lg bg-white lg:shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
+          <div class="flex flex-wrap items-center flex-col-reverse lg:flex-row">
+            <div class="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
+              <div class="h-[500px] w-full">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.5526693596994!2d-46.618795899999995!3d-23.691950099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce44f6eb708493%3A0x37842c0e0770b638!2sAv.%20Sete%20de%20Setembro%2C%20346%20-%20Concei%C3%A7%C3%A3o%2C%20Diadema%20-%20SP%2C%2009912-010!5e0!3m2!1spt-BR!2sbr!4v1698242064950!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
+              <h2 class="text-4xl font-bold text-center mb-10 w-full lg:w-1/2 mt-5 lg:mt-0 mx-auto text-red">
+                Entre em contato ou faça-nos uma visita
+              </h2>
+              <div class="flex flex-wrap px-3 pb-12 md:pb-0">
+                <div
+                  class="mb-12 w-full shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:w-6/12 xl:px-12">
+                  <div class="flex items-start">
+                    <div class="shrink-0">
+                      <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256" class="h-6 w-6">
+                          <path d="M152,96V56a8,8,0,0,1,16,0V76.69l34.34-34.35a8,8,0,0,1,11.32,11.32L179.32,88H200a8,8,0,0,1,0,16H160A8,8,0,0,1,152,96Zm79.88,79.08A56.26,56.26,0,0,1,176,224C96.6,224,32,159.4,32,80A56.24,56.24,0,0,1,80.92,24.13a16,16,0,0,1,16.62,9.51l21.12,47.15,0,.12A16,16,0,0,1,117.39,96c-.18.27-.37.52-.57.77L96,121.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,231.88,175.08Zm-15.88-2s-.07,0-.11,0h0l-47-21.05-24.35,20.71a6.84,6.84,0,0,1-.74.56,16,16,0,0,1-15.75,1.14c-18.73-9.05-37.4-27.58-46.46-46.11a16,16,0,0,1,1-15.7,6.13,6.13,0,0,1,.57-.77L104,87.15l-21-47a.61.61,0,0,1,0-.12A40.2,40.2,0,0,0,48,80,128.14,128.14,0,0,0,176,208,40.21,40.21,0,0,0,216,173.07Z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="ml-6 grow">
+                      <p class="mb-2 font-bold text-red text-lg">
+                        Contato
+                      </p>
+                      <a href="https://wa.me/5511984855420" target="_blank" class="block text-neutral-500">
+                        (Whats) 98485-5420 / Tel: (11)5621-3319
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="mb-12 w-full shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:w-6/12 xl:px-12">
+                  <div class="flex items-start">
+                    <div class="shrink-0">
+                      <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256" stroke-width="2" class="h-6 w-6">
+                          <path d="M200,224H150.54A266.56,266.56,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25a88,88,0,0,0-176,0c0,31.4,14.51,64.68,42,96.25A266.56,266.56,0,0,0,105.46,224H56a8,8,0,0,0,0,16H200a8,8,0,0,0,0-16ZM56,104a72,72,0,0,1,144,0c0,57.23-55.47,105-72,118C111.47,209,56,161.23,56,104Zm112,0a40,40,0,1,0-40,40A40,40,0,0,0,168,104Zm-64,0a24,24,0,1,1,24,24A24,24,0,0,1,104,104Z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="ml-6 grow">
+                      <p class="mb-2 font-bold text-red text-lg">
+                        Endereço
+                      </p>
+                      <p class="text-neutral-500">
+                        Av Assembleia nº 715, Diadema - SP
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="mb-12 w-full shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:mb-0 xl:w-6/12 xl:px-12">
+                  <div class="align-start flex">
+                    <div class="shrink-0">
+                      <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256" class="w-6 h-6">
+                          <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="ml-6 grow">
+                      <p class="mb-2 font-bold text-red text-lg">Atendimento</p>
+                      <p class="text-neutral-500">
+                        Seg à Sáb dàs 07h às 18h00
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:w-6/12 xl:px-12">
+                  <div class="align-start flex">
+                    <div class="shrink-0">
+                      <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256" class="w-6 h-6">
+                          <path d="M181.66,106.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0L112,123.31,85.66,149.66a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,0L144,132.69l26.34-26.35A8,8,0,0,1,181.66,106.34ZM232,128A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-16,0A88,88,0,1,0,51.81,172.06a8,8,0,0,1,.66,6.54L40,216,77.4,203.52a8,8,0,0,1,6.54.67A88,88,0,0,0,216,128Z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="ml-6 grow">
+                      <p class="mb-2 font-bold text-red text-lg">Redes sociais</p>
+                      <div class="flex flex-row gap-5">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white" class="w-6 h-6 fill-neutral-500">
+                          <title>Facebook</title>
+                          <path
+                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" class="w-6 h-6 fill-neutral-500">
+                          <title>Instagram</title>
+                          <path
+                            d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                        </svg>
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" class="w-6 h-6 fill-neutral-500">
+                          <title>Gmail</title>
+                          <path
+                            d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-10 px-container-sm py-8 text-white text-center lg:px-container-lg lg:py-12 lg:pb-4 lg:text-left">
+      <div class="border-b border-white pb-4 lg:flex lg:flex-row lg:justify-between lg:items-center lg:pb-8">
+        <img src="/public/Logo - SEM PERRENGUES.png" alt="Logo sem perrengues" class="w-1/2 block mx-auto lg:w-48 lg:mx-0">
+        <ul class="font-normal mt-5 lg:flex lg:flex-row lg:gap-10 lg:font-light lg:mt-0">
+          <li class="py-1">
+            <a href="/">Home</a>
+          </li>
+          <li class="py-1">
+            <a href="/servicos.html">Serviços</a>
+          </li>
+          <li class="py-1">
+            <a href="/contato.html">Contato</a>
+          </li>
+          <li class="py-1">
+            <a href="https://wa.me/5511984855420">
+              Faça sua matrícula
+            </a>
+          </li>
+        </ul>
+        <div class="flex flex-row flex-wrap justify-center gap-5 mt-5 lg:gap-10 lg:mt-0">
+          <a href="https://www.facebook.com/stradaautoescoladiadema?mibextid=LQQJ4d" target="_blank">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white" class="w-7">
+              <title>Facebook</title>
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+          <a href="https://instagram.com/strada_diadema?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr" target="_blank">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white" class="w-7">
+              <title>Instagram</title>
+              <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+            </svg>
+          </a>
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white" class="w-7">
+            <title>Gmail</title>
+            <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="pt-5 lg:pt-8">
+        <em class="not-italic font-light lg:text-xs">@2023 Sem Perrengues. All rights reserved.</em>
+      </div>
+    </footer>
+
+    <a href="https://wa.me/5511984855420" target="_blank" class="bg-[#25D366] fixed bottom-4 right-2 lg:right-5 p-3 rounded-full">
+      <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11 fill-white"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </a>
+
+    <script src="/src/index.js"></script>
+  </body>
+
+</html>
