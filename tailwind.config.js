@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: ['./**/*.{html,js}'],
   theme: {
     extend: {
+      keyframes: {
+        pulse: {
+          '50%': { opacity: 1, transform: 'scale(.95)' },
+        },
+      },
+      animation: {
+        pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+      },
       colors: {
         red: '#DB1D1B ',
         'red-50': '#FFECEF',
@@ -14,22 +22,22 @@ module.exports = {
       },
       padding: {
         'container-sm': '0.75rem',
-        'container-lg': '5rem'
+        'container-lg': '5rem',
       },
       backgroundImage: {
         'header-image': 'url(/public/full-banner-home.png)',
         'services-hero': 'url(/public/full-banner-servicos.png)',
         'about-hero': 'url(/public/BANNER-SOBRE.jpg)',
-        'contact-hero': 'url(/public/full-banner-contato.png)'
+        'contact-hero': 'url(/public/full-banner-contato.png)',
+        'fundo-faq': 'url(/public/fundo-faq.png)',
       },
       backgroundSize: {
-        'section-lg': '840px'
-      }
+        'section-lg': '840px',
+      },
     },
     fontFamily: {
-      poppins: ['Poppins', 'sans-serif']
-    }
+      poppins: ['Poppins', 'sans-serif'],
+    },
   },
   plugins: [],
-}
-
+};
