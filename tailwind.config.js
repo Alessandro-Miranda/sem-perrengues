@@ -29,7 +29,8 @@ module.exports = {
         'services-hero': 'url(/public/full-banner-servicos.png)',
         'about-hero': 'url(/public/BANNER-SOBRE.jpg)',
         'contact-hero': 'url(/public/full-banner-contato.png)',
-        'fundo-faq': 'url(/public/fundo-faq.png)',
+        'fundo-faq': 'url(/public/fundo-faq-novo.png)',
+        'bg-geral': 'url(/public/bg-geral.png)'
       },
       backgroundSize: {
         'section-lg': '840px',

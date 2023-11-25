@@ -667,12 +667,12 @@ video {
   left: 0px;
 }
 
-.left-1\/2 {
-  left: 50%;
-}
-
 .left-16 {
   left: 4rem;
+}
+
+.left-\[32\%\] {
+  left: 32%;
 }
 
 .right-2 {
@@ -911,24 +911,12 @@ video {
   display: none;
 }
 
-.h-1 {
-  height: 0.25rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-11 {
   height: 2.75rem;
 }
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-8 {
-  height: 2rem;
 }
 
 .h-9 {
@@ -960,10 +948,6 @@ video {
   width: 50%;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
 .w-11 {
   width: 2.75rem;
 }
@@ -976,8 +960,8 @@ video {
   width: 50%;
 }
 
-.w-32 {
-  width: 8rem;
+.w-2\/5 {
+  width: 40%;
 }
 
 .w-5\/6 {
@@ -992,16 +976,8 @@ video {
   width: 1.5rem;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
 .w-7 {
   width: 1.75rem;
-}
-
-.w-8 {
-  width: 2rem;
 }
 
 .w-9 {
@@ -1031,14 +1007,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-1\/5 {
-  width: 20%;
 }
 
 .max-w-screen-sm {
@@ -1107,11 +1075,6 @@ video {
 
 .border-separate {
   border-collapse: separate;
-}
-
-.-translate-x-1\/2 {
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .\!transform {
@@ -1930,10 +1893,6 @@ video {
   border-radius: 0.375rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2082,11 +2041,6 @@ video {
   background-color: rgb(0 0 0 / 0.75);
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(214 216 220 / var(--tw-bg-opacity));
-}
-
 .bg-red {
   --tw-bg-opacity: 1;
   background-color: rgb(219 29 27 / var(--tw-bg-opacity));
@@ -2097,12 +2051,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-white\/60 {
-  background-color: rgb(255 255 255 / 0.6);
+.bg-bg-geral {
+  background-image: url(/public/bg-geral.png);
 }
 
 .bg-fundo-faq {
-  background-image: url(/public/fundo-faq.png);
+  background-image: url(/public/fundo-faq-novo.png);
 }
 
 .decoration-slice {
@@ -2158,6 +2112,10 @@ video {
   background-position: bottom;
 }
 
+.bg-top {
+  background-position: top;
+}
+
 .bg-repeat {
   background-repeat: repeat;
 }
@@ -2204,10 +2162,6 @@ video {
 
 .stroke-red {
   stroke: #DB1D1B ;
-}
-
-.stroke-white {
-  stroke: #fff;
 }
 
 .object-contain {
@@ -2285,9 +2239,9 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-12 {
@@ -2396,17 +2350,8 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
 }
 
 .font-light {
@@ -2977,14 +2922,6 @@ video {
     margin-right: 0px;
   }
 
-  .lg\:mb-0 {
-    margin-bottom: 0px;
-  }
-
-  .lg\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
   .lg\:ml-2 {
     margin-left: 0.5rem;
   }
@@ -3001,28 +2938,12 @@ video {
     margin-top: 5rem;
   }
 
-  .lg\:mt-5 {
-    margin-top: 1.25rem;
-  }
-
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
-  .lg\:block {
-    display: block;
-  }
-
   .lg\:flex {
     display: flex;
   }
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:h-\[550px\] {
-    height: 550px;
   }
 
   .lg\:h-\[inherit\] {
@@ -3038,10 +2959,6 @@ video {
     width: 50%;
   }
 
-  .lg\:w-2\/3 {
-    width: 66.666667%;
-  }
-
   .lg\:w-48 {
     width: 12rem;
   }
@@ -3052,6 +2969,10 @@ video {
 
   .lg\:w-6\/12 {
     width: 50%;
+  }
+
+  .lg\:w-64 {
+    width: 16rem;
   }
 
   .lg\:w-full {
@@ -3120,28 +3041,19 @@ video {
     padding: 0px;
   }
 
-  .lg\:px-3 {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
   .lg\:px-container-lg {
     padding-left: 5rem;
     padding-right: 5rem;
   }
 
-  .lg\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .lg\:py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-  }
-
-  .lg\:pb-10 {
-    padding-bottom: 2.5rem;
   }
 
   .lg\:pb-4 {
@@ -3150,14 +3062,6 @@ video {
 
   .lg\:pb-8 {
     padding-bottom: 2rem;
-  }
-
-  .lg\:pt-20 {
-    padding-top: 5rem;
-  }
-
-  .lg\:pt-44 {
-    padding-top: 11rem;
   }
 
   .lg\:pt-72 {
@@ -3180,21 +3084,6 @@ video {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .lg\:text-sm {
