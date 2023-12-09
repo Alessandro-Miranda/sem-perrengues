@@ -671,8 +671,8 @@ video {
   left: 4rem;
 }
 
-.left-\[32\%\] {
-  left: 32%;
+.left-\[50\%\] {
+  left: 50%;
 }
 
 .right-2 {
@@ -693,6 +693,30 @@ video {
 
 .top-8 {
   top: 2rem;
+}
+
+.bottom-\[2\%\] {
+  bottom: 2%;
+}
+
+.bottom-\[250\] {
+  bottom: 250;
+}
+
+.bottom-\[50\%\] {
+  bottom: 50%;
+}
+
+.bottom-\[25\%\] {
+  bottom: 25%;
+}
+
+.bottom-\[22\%\] {
+  bottom: 22%;
+}
+
+.left-\[4\.5\%\] {
+  left: 4.5%;
 }
 
 .isolate {
@@ -810,6 +834,26 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.ml-\[20\$\] {
+  margin-left: 20$;
+}
+
+.ml-\[20\%\] {
+  margin-left: 20%;
+}
+
+.ml-\[5\%\] {
+  margin-left: 5%;
+}
+
+.ml-\[4\%\] {
+  margin-left: 4%;
+}
+
+.ml-\[4\.5\%\] {
+  margin-left: 4.5%;
 }
 
 .box-border {
@@ -1075,6 +1119,11 @@ video {
 
 .border-separate {
   border-collapse: separate;
+}
+
+.-translate-x-\[50\%\] {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .\!transform {
@@ -2059,6 +2108,10 @@ video {
   background-image: url(/public/fundo-faq-novo.png);
 }
 
+.bg-textura-servicos {
+  background-image: url(/public/textura-servicos.png);
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2077,6 +2130,14 @@ video {
 .box-decoration-clone {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-fixed {
@@ -2106,10 +2167,6 @@ video {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
-}
-
-.bg-bottom {
-  background-position: bottom;
 }
 
 .bg-top {
@@ -2258,6 +2315,34 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pb-52 {
+  padding-bottom: 13rem;
+}
+
+.pb-44 {
+  padding-bottom: 11rem;
+}
+
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .text-left {
@@ -2898,6 +2983,10 @@ video {
     width: 50%;
   }
 
+  .md\:w-3\/12 {
+    width: 25%;
+  }
+
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -3072,6 +3161,14 @@ video {
     padding-top: 2rem;
   }
 
+  .lg\:pt-52 {
+    padding-top: 13rem;
+  }
+
+  .lg\:pt-20 {
+    padding-top: 5rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -3150,6 +3247,14 @@ video {
 
   .xl\:w-8\/12 {
     width: 66.666667%;
+  }
+
+  .xl\:w-4\/12 {
+    width: 33.333333%;
+  }
+
+  .xl\:w-full {
+    width: 100%;
   }
 
   .xl\:px-12 {

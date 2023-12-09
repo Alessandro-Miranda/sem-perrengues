@@ -30,7 +30,8 @@ module.exports = {
         'about-hero': 'url(/public/BANNER-SOBRE.jpg)',
         'contact-hero': 'url(/public/full-banner-contato.png)',
         'fundo-faq': 'url(/public/fundo-faq-novo.png)',
-        'bg-geral': 'url(/public/bg-geral.png)'
+        'bg-geral': 'url(/public/bg-geral.png)',
+        'textura-servicos': 'url(/public/textura-servicos.png)'
       },
       backgroundSize: {
         'section-lg': '840px',
