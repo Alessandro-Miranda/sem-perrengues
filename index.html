@@ -18,10 +18,7 @@
 
   <body class="font-poppins max-w-screen-sm lg:max-w-[100vw] text-white relative bg-black">
     <header class="px-container-sm lg:px-container-lg absolute top-8  w-full z-20" id="menu">
-      <div class="flex justify-between items-center">
-        <a href="/" class="w-2/4 lg:w-52">
-          <img src="/public/Logo - SEM PERRENGUES.png" alt="Logo Sem perrengues" />
-        </a>
+      <div class="flex justify-end items-center">
         <button class="leading-none h-max menu-open bg-white rounded p-2 lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="fill-red" viewBox="0 0 256 256" id="open-menu-mobile-svg">
             <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
@@ -34,17 +31,17 @@
             </svg>
           </button>
           <ul class="mt-14 font-medium lg:mt-0 lg:flex lg:items-center">
-            <li class="p-container-sm text-white text-lg border-b cursor-pointer lg:hover:text-red lg:border-b-0 lg:py-2">
+            <li class="p-container-sm text-white border-b cursor-pointer lg:hover:text-red lg:border-b-0 lg:py-2 text-3xl">
               <a href="/" class="block w-full">Home</a>
             </li>
-            <li class="p-container-sm text-white text-lg border-b cursor-pointer lg:hover:text-red lg:border-b-0 lg:py-2 lg:mr-2">
+            <li class="p-container-sm text-white border-b cursor-pointer lg:hover:text-red lg:border-b-0 lg:py-2 lg:mr-2 text-3xl">
               <a href="/servicos.html" class="block w-full">Serviços</a>
             </li>
-            <li class="p-container-sm text-white text-lg border-b cursor-pointer lg:hover:text-red lg:border-b-0 lg:py-2 lg:mr-2 lg:border-r">
+            <li class="p-container-sm text-white border-b cursor-pointer lg:hover:text-red lg:border-b-0 lg:py-2 lg:mr-2 lg:border-r text-3xl">
               <a href="/contato.html" class="block w-full">Contato</a>
             </li>
-            <li class="p-container-sm text-lg cursor-pointer w-2/3 mx-auto mt-4 lg:p-0 lg:w-48 lg:ml-2 lg:mt-0 text-white">
-              <a href="https://wa.me/5511984855420" target="_blank" class="bg-white lg:bg-red text-red font-bold lg:text-white lg:hover:bg-red-100 hover:text-red w-full block py-3 rounded-md lg:font-medium text-center lg:text-xl" id="menu-button">
+            <li class="p-container-sm cursor-pointer w-2/3 mx-auto mt-4 lg:p-0 lg:w-48 lg:ml-2 lg:mt-0 text-white text-3xl">
+              <a href="https://wa.me/5511984855420" target="_blank" class="bg-white lg:bg-red text-red font-bold lg:text-white lg:hover:bg-red-100 hover:text-red w-full block py-3 rounded-md lg:font-medium text-center lg:text-2xl" id="menu-button">
                 Saiba mais
               </a>
             </li>
@@ -54,16 +51,16 @@
     </header>
     
     <div class="relative">
-      <img src="/public/full-banner-home.png" />
-      <a href="https://wa.me/5511984855420" class="absolute bottom-[2%] lg:bottom-20 left-[50%] -translate-x-[50%]">
+      <img src="/public/home.png" />
+      <a href="https://wa.me/5511984855420" class="absolute bottom-[2%] lg:-bottom-20 left-[50%] -translate-x-[50%]">
         <img src="/public/entre-em-contato.png" class="block w-[30rem] animate-pulse" />
       </a>
     </div>
 
     <main>
       <section class="mt-10 relative lg:pt-20">
-        <img src="/public/banner-solucoes.png" alt="servicos" class="block w-full h-full" />
-        <div class="lg:flex lg:gap-3 mb-5 z-10 px-container-sm lg:px-container-lg bg-textura-servicos bg-contain bg-no-repeat pt-10 pb-24">
+        <img src="/public/serviços-1.png" alt="servicos" class="block w-full h-full" />
+        <div class="lg:grid lg:grid-cols-3 lg:gap-3 mb-5 z-10 px-container-sm lg:px-container-lg bg-textura-servicos bg-cover bg-no-repeat pt-10 pb-24">
           <article class="shadow-sm shadow-white rounded-md p-5 flex items-center gap-5 lg:shadow-none bg-black/75">
             <div class="flex-1">
               <h3 class="text-yellow-400 font-semibold text-3xl mb-3">CNH Suspensa</h3>
@@ -98,18 +95,54 @@
               </a>
             </div>
           </article>
+
+          <article class="shadow-sm shadow-white rounded-md p-5 flex items-center gap-5 mt-6 lg:shadow-none lg:mt-0 bg-black/75">
+            <div class="flex-1">
+              <h3 class="text-yellow-400 font-semibold text-3xl mb-3">Despachante</h3>
+              <p class="text-white font-normal">
+                Simplifique burocracias. Seja para resolver pendências documentais ou agilizar processos, estaremos sempre ao seu lado oferecendo soluções eficazes e suporte personalizado...
+              </p>
+              <a href="/servicos.html#despachante" class="bg-red block w-max py-3 px-5 mt-5 rounded-md font-medium text-white">
+                Ler mais
+              </a>
+            </div>
+          </article>
+          
+          <article class="shadow-sm shadow-white rounded-md p-5 flex items-center gap-5 mt-6 lg:shadow-none lg:mt-0 bg-black/75">
+            <div class="flex-1">
+              <h3 class="text-yellow-400 font-semibold text-3xl mb-3">Despachante</h3>
+              <p class="text-white font-normal">
+                Simplifique burocracias. Seja para resolver pendências documentais ou agilizar processos, estaremos sempre ao seu lado oferecendo soluções eficazes e suporte personalizado...
+              </p>
+              <a href="/servicos.html#despachante" class="bg-red block w-max py-3 px-5 mt-5 rounded-md font-medium text-white">
+                Ler mais
+              </a>
+            </div>
+          </article>
+          
+          <article class="shadow-sm shadow-white rounded-md p-5 flex items-center gap-5 mt-6 lg:shadow-none lg:mt-0 bg-black/75">
+            <div class="flex-1">
+              <h3 class="text-yellow-400 font-semibold text-3xl mb-3">Despachante</h3>
+              <p class="text-white font-normal">
+                Simplifique burocracias. Seja para resolver pendências documentais ou agilizar processos, estaremos sempre ao seu lado oferecendo soluções eficazes e suporte personalizado...
+              </p>
+              <a href="/servicos.html#despachante" class="bg-red block w-max py-3 px-5 mt-5 rounded-md font-medium text-white">
+                Ler mais
+              </a>
+            </div>
+          </article>
         </div>
       </section>
 
       <div class="relative">
-        <img src="/public/Banner sobre nós (abaixo do baner serviços).png" />
-        <a href="https://wa.me/5511984855420" target="_blank" class="bg-white text-black font-bold w-48 lg:w-96 ml-[4.5%] absolute bottom-0 lg:bottom-[22%] block py-3 rounded-md text-center lg:text-2xl" id="menu-button">
+        <img src="/public/Banner sobre nós.png" />
+        <a href="https://wa.me/5511984855420" target="_blank" class="bg-white text-black font-bold w-48 lg:w-96 ml-[4.5%] absolute bottom-0 lg:bottom-[10%] block py-3 rounded-md text-center lg:text-2xl" id="menu-button">
           Ler mais
         </a>
       </div>
 
       <div class="relative">
-        <img src="/public/Banner antes das perguntas frequentes.png" />
+        <img src="/public/antes de perguntas frequentes na home.png" />
         <a href="https://wa.me/5511984855420" class="absolute bottom-[8%] lg:bottom-[22%] left-[4.5%]">
           <img src="/public/entre-em-contato.png" class="block w-72 lg:w-[34rem] animate-pulse" />
         </a>
@@ -226,13 +259,26 @@
             </p>
           </details>
 
+          <details class="group p-5 rounded-md mb-4 bg-black/75 text-white">
+            <summary class="flex justify-between items-center font-semibold cursor-pointer list-none">
+              <span>O que é cadastro no detran</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </span>
+            </summary>
+            <p class="mt-3 group-open:animate-fadeIn">
+              Se eu já sou habilitado eu já não tenho cadastro no DETRAN ? Não! Se você tirou a sua CNH, você possui o seu PRONTUÁRIO no DETRAN, contendo os seus dados pessoais, e as informações do processo da sua CNH em geral, desde o princípio. Tudo que acontece ou é feito em sua CNH, é adicionado ao seu prontuário. Já o CADASTRO NO DETRAN, é um serviço oferecido pelo portal a todo cidadão, possuindo CNH ou não , afim de oferecer todos os serviços disponíveis, tais como consulta de pontuação em CNH, pra quem é habilitado, consulta de débito em veículo,para quem possui carro no nome, agendamento de serviços do DETRAN presencial, consulta de andamento de processo de CNH, para quem está tirando, etc. Para isso basta digitar o seu CPF, na área CADASTRE-SE AQUI, e seguir as instruções.
+            </p>
+          </details>
+
         </div>
       </div>
     </main>
 
     <footer class="mt-5 px-container-sm py-4 text-white text-center lg:px-container-lg lg:py-0 lg:pb-4 lg:text-left">
       <div class="border-b border-white pb-4 lg:flex lg:flex-row lg:justify-between lg:items-center lg:pb-8">
-        <img src="/public/Logo - SEM PERRENGUES.png" alt="Logo sem perrengues" class="w-1/2 block mx-auto lg:w-64 lg:mx-0">
+        <img src="/public/Logo - SEM PERRENGUES.png" alt="Logo sem perrengues" class="w-1/2 block mx-auto lg:w-96 lg:mx-0">
         <ul class="font-normal mt-5 lg:flex lg:flex-row lg:gap-10 lg:font-light lg:mt-0">
           <li class="py-1">
             <a href="/">Home</a>
@@ -268,7 +314,7 @@
       </div>
 
       <div class="pt-5 lg:pt-8">
-        <em class="not-italic font-light lg:text-xs">@2023 Sem perrengues. All rights reserved.</em>
+        <em class="not-italic font-light lg:text-xs">@2024 Sem perrengues. All rights reserved.</em>
       </div>
     </footer>
 
