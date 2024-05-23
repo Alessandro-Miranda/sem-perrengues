@@ -3070,6 +3070,14 @@ video {
     margin-top: 5rem;
   }
 
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .lg\:mb-11 {
+    margin-bottom: 2.75rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
