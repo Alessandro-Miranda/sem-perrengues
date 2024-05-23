@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^(.*)$ https://alessandro-miranda.github.io/sem-perrengues/$1
