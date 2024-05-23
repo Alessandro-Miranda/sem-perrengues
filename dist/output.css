@@ -639,10 +639,6 @@ video {
   inset: 0px;
 }
 
-.-bottom-10 {
-  bottom: -2.5rem;
-}
-
 .-bottom-5 {
   bottom: -1.25rem;
 }
@@ -657,6 +653,10 @@ video {
 
 .-top-\[120\%\] {
   top: -120%;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .bottom-4 {
@@ -705,6 +705,14 @@ video {
 
 .top-8 {
   top: 2rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.-bottom-10 {
+  bottom: -2.5rem;
 }
 
 .isolate {
@@ -3027,6 +3035,18 @@ video {
 
   .lg\:right-5 {
     right: 1.25rem;
+  }
+
+  .lg\:-bottom-10 {
+    bottom: -2.5rem;
+  }
+
+  .lg\:-bottom-24 {
+    bottom: -6rem;
+  }
+
+  .lg\:-bottom-28 {
+    bottom: -7rem;
   }
 
   .lg\:mx-0 {
