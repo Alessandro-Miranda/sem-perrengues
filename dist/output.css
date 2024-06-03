@@ -1025,6 +1025,10 @@ video {
   width: 21rem;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .max-w-screen-sm {
   max-width: 640px;
 }
@@ -3159,6 +3163,10 @@ video {
 
   .lg\:w-\[32rem\] {
     width: 32rem;
+  }
+
+  .lg\:w-\[500px\] {
+    width: 500px;
   }
 
   .lg\:max-w-\[100vw\] {
