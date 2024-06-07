@@ -944,6 +944,10 @@ video {
   height: 100vh;
 }
 
+.h-\[250px\] {
+  height: 250px;
+}
+
 .max-h-\[450px\] {
   max-height: 450px;
 }
@@ -1007,6 +1011,10 @@ video {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-\[450px\] {
+  width: 450px;
 }
 
 .max-w-max {
