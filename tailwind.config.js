@@ -25,13 +25,13 @@ module.exports = {
         'container-lg': '5rem',
       },
       backgroundImage: {
-        'header-image': 'url(/public/full-banner-home.png)',
-        'services-hero': 'url(/public/full-banner-servicos.png)',
-        'about-hero': 'url(/public/BANNER-SOBRE.jpg)',
-        'contact-hero': 'url(/public/full-banner-contato.png)',
-        'fundo-faq': 'url(/public/fundo-faq-novo.png)',
-        'bg-geral': 'url(/public/bg-geral.png)',
-        'textura-servicos': 'url(/public/textura-servicos.png)'
+        'header-image': 'url(/images/full-banner-home.png)',
+        'services-hero': 'url(/images/full-banner-servicos.png)',
+        'about-hero': 'url(/images/BANNER-SOBRE.jpg)',
+        'contact-hero': 'url(/images/full-banner-contato.png)',
+        'fundo-faq': 'url(/images/fundo-faq-novo.png)',
+        'bg-geral': 'url(/images/bg-geral.png)',
+        'textura-servicos': 'url(/images/textura-servicos.png)'
       },
       backgroundSize: {
         'section-lg': '840px',
