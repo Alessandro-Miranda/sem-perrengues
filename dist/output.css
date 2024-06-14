@@ -3149,6 +3149,10 @@ video {
     width: 34rem;
   }
 
+  .lg\:w-\[750px\] {
+    width: 750px;
+  }
+
   .lg\:w-full {
     width: 100%;
   }
@@ -3156,6 +3160,14 @@ video {
   .lg\:w-max {
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .lg\:w-\[1000px\] {
+    width: 1000px;
+  }
+
+  .lg\:w-\[1240px\] {
+    width: 1240px;
   }
 
   .lg\:max-w-\[100vw\] {
