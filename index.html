@@ -20,7 +20,7 @@
   <body class="font-poppins max-w-screen-sm lg:max-w-[100vw] text-white relative bg-black overflow-x-hidden">
     <header class="px-container-sm lg:px-container-lg absolute top-8  w-full z-20" id="menu">
       <div class="flex justify-end items-center">
-        <button class="leading-none h-max menu-open bg-white rounded p-2 lg:hidden">
+        <button class="leading-none -translate-y-2 h-max menu-open bg-white rounded p-2 lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="fill-red" viewBox="0 0 256 256"
             id="open-menu-mobile-svg">
             <path
@@ -74,7 +74,7 @@
       <section class="mt-20 relative lg:pt-20">
         <img src="/images/servicos-1.png" alt="servicos" class="block w-full h-full" />
         <div
-          class="lg:grid lg:grid-cols-3 lg:gap-3 mb-5 z-10 px-container-sm lg:px-container-lg bg-textura-servicos bg-cover bg-no-repeat pt-10 pb-24">
+          class="lg:grid lg:grid-cols-3 lg:gap-3 mb-5 z-10 px-container-sm lg:px-container-lg bg-textura-servicos bg-cover bg-no-repeat pt-10 pb-10">
           <article class="shadow-sm shadow-white rounded-md p-5 flex items-start gap-5 lg:shadow-none bg-black/75">
             <div class="flex-1">
               <h3 class="text-yellow-400 font-semibold text-5xl mb-3">CNH Suspensa</h3>
@@ -164,9 +164,19 @@
         </div>
       </section>
 
-      <div class="relative mb-10 h-[275px] lg:h-max">
-        <img src="/images/Banner-sobre-nos-Sem-perrengues.png" />
-        <img src="/images/Texto-Banner-Quem-somos-Sem-perrengues.png" class="absolute top-0 w-[500px] max-w-max lg:w-[1240px]" />
+      <div class="relative mb-10 lg:h-max bg-[url('/images/Banner-sobre-nos-Sem-perrengues.png')] bg-cover bg-center lg:bg-none">
+        <img src="/images/Banner-sobre-nos-Sem-perrengues.png" class="hidden lg:block" />
+        <div class="text-2xl lg:hidden">
+          <img src="/images/titulo-quem-somos.png" />
+          <p class="pl-5 mt-2">A CASA DO MOTORISTA é uma assessoria de trânsito criada para ajudar você a resolver problemas de CNH suspensa, cassada,
+          reabilitação, entre outros, citados no campo 'Nossos Serviços”.</p>
+          <p class="pl-5">
+            Ao longo dos meus 15 anos de experiência no ramo, temos como missão a transparência total em nosso trabalho, visando
+            assim oferecer soluções cabíveis, de acordo com as normativas e regulamentações do DETRAN e CTB (Código de Trânsito
+            Brasileiro).
+          </p>
+        </div>
+        <img src="/images/Texto-Banner-Quem-somos-Sem-perrengues.png" class="absolute top-0 w-[600px] hidden lg:block max-w-max lg:w-[1240px]" />
         <!-- <img class="hidden lg:block" src="/images/Banner-Sobre-Nos-Semperrengues-Desktop.png" /> -->
       </div>
 
@@ -353,16 +363,16 @@
     <footer class="mt-5 px-container-sm py-4 text-white text-center lg:px-container-lg lg:py-0 lg:pb-4 lg:text-left">
       <div class="border-b border-white pb-4 lg:flex lg:flex-row lg:justify-between lg:items-center lg:pb-8">
         <img src="/images/logo.png" alt="Logo sem perrengues"
-          class="w-11/12 block mx-auto lg:w-80 lg:mx-0">
+          class="w-9/12 block mx-auto lg:w-80 lg:mx-0">
         <ul class="font-normal mt-5 lg:flex lg:flex-row lg:gap-10 lg:font-light lg:mt-0">
           <li class="py-1">
-            <a href="/">Home</a>
+            <a href="/" class="text-xl">Home</a>
           </li>
           <li class="py-1">
-            <a href="/servicos.html">Serviços</a>
+            <a href="/servicos.html" class="text-xl">Serviços</a>
           </li>
           <li class="py-1">
-            <a href="/contato.html">Contato</a>
+            <a href="/contato.html" class="text-xl">Contato</a>
           </li>
         </ul>
         <div class="flex flex-row flex-wrap justify-center gap-5 mt-5 lg:gap-10 lg:mt-0">

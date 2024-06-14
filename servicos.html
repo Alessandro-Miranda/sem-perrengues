@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="overflow-x-hidden">
 
   <head>
     <meta charset="UTF-8">
@@ -14,14 +14,14 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
 
-  <body class="font-poppins max-w-screen-sm lg:max-w-[100vw] bg-black text-white relative bg-bg-geral pt-5">
+  <body class="font-poppins max-w-screen-sm lg:max-w-[100vw] bg-black text-white relative bg-bg-geral pt-5 overflow-x-hidden">
     <header class="px-container-sm lg:px-container-lg absolute top-3 w-full" id="menu">
       <div class="flex justify-between items-center">
         <a href="/">
           <img src="/images/logo.png" alt="Logo sem perrengues"
             class="w-2/4 lg:w-96 lg:-translate-x-14 lg:translate-y-5" />
         </a>
-        <button class="leading-none h-max menu-open bg-white rounded p-2 lg:hidden">
+        <button class="leading-none h-max menu-open -translate-y-2 bg-white rounded p-2 lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="fill-red" viewBox="0 0 256 256"
             id="open-menu-mobile-svg">
             <path
@@ -65,8 +65,8 @@
 
     </header>
 
-    <div>
-      <img src="/images/full-banner-servicos.png" />
+    <div class="bg-[url('/images/full-banner-servicos.png')] bg-left bg-cover h-[250px] pt-20">
+      <img src="/images/full-banner-servicos.png" class="hidden mt-20 lg:mt-0" />
     </div>
 
     <main>
