@@ -15,12 +15,12 @@
   </head>
 
   <body class="font-poppins max-w-screen-sm lg:max-w-[100vw] bg-black text-white relative bg-bg-geral pt-10">
-    <header class="px-container-sm lg:px-container-lg absolute top-8 w-full" id="menu">
+    <header class="px-container-sm lg:px-container-lg absolute z-10 top-3 w-full" id="menu">
       <div class="flex justify-between items-center">
         <a href="/" class="w-2/4 lg:w-96">
           <img src="/images/logo.png" alt="Logo Sem perrengues" class="lg:-translate-x-14 lg:translate-y-5" />
         </a>
-        <button class="leading-none h-max menu-open bg-white rounded p-2 lg:hidden">
+        <button class="leading-none -translate-y-[9px] h-max menu-open bg-white rounded p-2 lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="fill-red" viewBox="0 0 256 256" id="open-menu-mobile-svg">
             <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
           </svg>
@@ -66,7 +66,7 @@
                   class="mb-12 w-full shrink-0 grow-0 basis-auto lg:mx-auto">
                   <div class="flex items-start">
                     <div class="grow flex flex-col lg:flex-row lg:justify-between">
-                      <p class="block text-center translate-x-4 lg:text-left text-3xl lg:text-6xl text-[#FFF200] font-bold">
+                      <p class="block text-center translate-x-[6px] lg:text-left text-3xl lg:text-6xl text-[#FFF200] font-bold">
                         (11) 5621-3319
                       </p>
 
@@ -97,7 +97,7 @@
                       <p class="mb-2 font-bold text-[#4DFF00] text-3xl lg:text-7xl uppercase">
                         Endereço:
                       </p>
-                      <p class="text-white text-5xl font-bold">
+                      <p class="text-white text-[1.7rem] font-bold">
                         Av. Assembleia nº 715, Diadema - SP
                       </p>
                       <div class="flex flex-row gap-5 justify-center mt-5">
@@ -140,13 +140,13 @@
         <img src="/images/logo.png" alt="Logo sem perrengues" class="w-8/12 block mx-auto lg:w-80 lg:mx-0">
         <ul class="font-normal mt-5 lg:flex lg:flex-row lg:gap-10 lg:font-light lg:mt-0">
           <li class="py-1">
-            <a href="/">Home</a>
+            <a href="/" class="text-xl">Home</a>
           </li>
           <li class="py-1">
-            <a href="/servicos.html">Serviços</a>
+            <a href="/servicos.html" class="text-xl">Serviços</a>
           </li>
           <li class="py-1">
-            <a href="/contato.html">Contato</a>
+            <a href="/contato.html" class="text-xl">Contato</a>
           </li>
         </ul>
         <div class="flex flex-row flex-wrap justify-center gap-5 mt-5 lg:gap-10 lg:mt-0">
